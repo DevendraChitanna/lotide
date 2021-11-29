@@ -18,7 +18,8 @@ const findKey = function (obj, call) {
     }
   }
   return undefined
-}
+};
+module.exports = findKey;
 
 
 

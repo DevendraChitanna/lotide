@@ -40,6 +40,7 @@ const without = function (arr, rem) {
     })
   });
   return arr2;
-}
+};
+module.exports = without;
 
 console.log(without([1, "2", 3], ["2"]))

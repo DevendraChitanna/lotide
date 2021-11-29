@@ -15,7 +15,8 @@ const findKeyByValue = function (obj, find) {
       return genre
     }
   }
-}
+};
+module.exports = findKeyByValue;
 
 
 
