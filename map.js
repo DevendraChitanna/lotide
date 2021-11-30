@@ -39,6 +39,6 @@ module.exports = map;
 
 
 
-console.log(assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']))
-console.log(assertArraysEqual(map(words, word => word.length), [6, 7, 2, 5, 3]))
-console.log(assertArraysEqual(map(words, word => word + word), ['groundground', 'controlcontrol', 'toto', 'majormajor', 'tomtom']))
+// console.log(assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']))
+// console.log(assertArraysEqual(map(words, word => word.length), [6, 7, 2, 5, 3]))
+// console.log(assertArraysEqual(map(words, word => word + word), ['groundground', 'controlcontrol', 'toto', 'majormajor', 'tomtom']))

@@ -36,14 +36,14 @@ const letterPositions = function (sentence) {
   return results
 };
 module.exports = letterPositions;
-console.log(assertArraysEqual(letterPositions("hello"), {
-  h: [0],
-  e: [1],
-  l: [2, 3],
-  o: [4]
-}))
+// console.log(assertArraysEqual(letterPositions("hello"), {
+//   h: [0],
+//   e: [1],
+//   l: [2, 3],
+//   o: [4]
+// }))
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+// assertArraysEqual(letterPositions("hello").e, [1]);
 
 
 // const letterPositions = function (sentence) {

@@ -43,4 +43,4 @@ const without = function (arr, rem) {
 };
 module.exports = without;
 
-console.log(without([1, "2", 3], ["2"]))
+// console.log(without([1, "2", 3], ["2"]))
